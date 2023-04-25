@@ -1,0 +1,28 @@
+<head>
+    <link rel="stylesheet" href="color.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="ayo"></div>
+    <ol>
+        <li class="alt"></li><br>
+        <li class="alt"></li><br>
+        <li class="alt"></li><br>
+        <li class="alt"></li><br>
+    </ol>
+    <div id="score"></div>
+    <div id="result"></div>
+    <button id="push">Click Here?</button>
+    <script src="script.js"></script>
+    <script>
+        var button = document.getElementById("push");
+        button.addEventListener("mouseover", function() {
+          button.innerHTML = "Uh oh!";
+        });
+        button.addEventListener("mouseout", function() {
+          button.innerHTML = "Click Here?";
+        });
+      </script>
+</body>
